@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Algorithm
-%define	pnam	Huffman
+%define		pdir	Algorithm
+%define		pnam	Huffman
 Summary:	Algorithm::Huffman - implementation of the Huffman algorithm
 Summary(pl):	Algorithm::Huffman - implementacja algorytmu Huffmana
 Name:		perl-Algorithm-Huffman
@@ -30,7 +30,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This modules implements the huffman algorithm.  The aim is to create
+This modules implements the huffman algorithm. The aim is to create
 a good coding scheme for a given list of different characters (or even
 strings) and their occurence numbers.
 
