@@ -7,7 +7,7 @@
 Summary:	Algorithm::Huffman - Implementation of the Huffman algorithm
 Summary(pl):	Algorithm::Huffman - Implementacja algorytmu Huffmana
 Name:		perl-Algorithm-Huffman
-Version:	0.05
+Version:	0.08
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
@@ -55,5 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc Change*
 %{perl_sitelib}/%{pdir}/*.pm
 %{_mandir}/man3/*
