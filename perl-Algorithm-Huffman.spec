@@ -13,7 +13,6 @@ License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-26
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Heap
 BuildRequires:	perl-Scalar-List-Utils
@@ -23,6 +22,7 @@ BuildRequires:	perl-Test-ManyParams
 BuildRequires:	perl-Test-Simple
 BuildRequires:	perl-Tree-DAG_Node
 %endif
+BuildRequires:	rpm-perlprov >= 3.0.3-26
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -31,8 +31,10 @@ This modules implements the huffman algorithm.  The aim is to create
 a good coding scheme for a given list of different characters (or even
 strings) and their occurence numbers.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ jest implementacj± algorytmu Huffmana. Celem jest stworzenie
+dobrze koduj±cego schematu dla danej listy ró¿nych znaków (lub nawet
+ci±gów) i liczby ich wyst±pieñ.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
