@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Algorithm
 %define	pnam	Huffman
-Summary:	Algorithm::Huffman - Implementation of the Huffman algorithm
-Summary(pl):	Algorithm::Huffman - Implementacja algorytmu Huffmana
+Summary:	Algorithm::Huffman - implementation of the Huffman algorithm
+Summary(pl):	Algorithm::Huffman - implementacja algorytmu Huffmana
 Name:		perl-Algorithm-Huffman
 Version:	0.09
 Release:	2
