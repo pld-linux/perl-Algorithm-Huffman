@@ -7,7 +7,7 @@
 Summary:	Algorithm::Huffman - Implementation of the Huffman algorithm
 Summary(pl):	Algorithm::Huffman - Implementacja algorytmu Huffmana
 Name:		perl-Algorithm-Huffman
-Version:	0.08
+Version:	0.09
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
