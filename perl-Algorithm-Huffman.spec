@@ -8,7 +8,7 @@ Summary:	Algorithm::Huffman - Implementation of the Huffman algorithm
 Summary(pl):	Algorithm::Huffman - Implementacja algorytmu Huffmana
 Name:		perl-Algorithm-Huffman
 Version:	0.09
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +22,7 @@ BuildRequires:	perl-Test-ManyParams
 BuildRequires:	perl-Test-Simple
 BuildRequires:	perl-Tree-DAG_Node
 %endif
-BuildRequires:	rpm-perlprov >= 3.0.3-26
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
