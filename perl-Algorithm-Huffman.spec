@@ -6,7 +6,7 @@
 %define		pdir	Algorithm
 %define		pnam	Huffman
 Summary:	Algorithm::Huffman - implementation of the Huffman algorithm
-Summary(pl):	Algorithm::Huffman - implementacja algorytmu Huffmana
+Summary(pl.UTF-8):   Algorithm::Huffman - implementacja algorytmu Huffmana
 Name:		perl-Algorithm-Huffman
 Version:	0.09
 Release:	3
@@ -34,10 +34,10 @@ This modules implements the huffman algorithm. The aim is to create
 a good coding scheme for a given list of different characters (or even
 strings) and their occurence numbers.
 
-%description -l pl
-Ten modu³ jest implementacj± algorytmu Huffmana. Celem jest stworzenie
-dobrze koduj±cego schematu dla danej listy ró¿nych znaków (lub nawet
-ci±gów) i liczby ich wyst±pieñ.
+%description -l pl.UTF-8
+Ten moduÅ‚ jest implementacjÄ… algorytmu Huffmana. Celem jest stworzenie
+dobrze kodujÄ…cego schematu dla danej listy rÃ³Å¼nych znakÃ³w (lub nawet
+ciÄ…gÃ³w) i liczby ich wystÄ…pieÅ„.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
