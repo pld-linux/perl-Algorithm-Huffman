@@ -6,7 +6,7 @@
 %define		pdir	Algorithm
 %define		pnam	Huffman
 Summary:	Algorithm::Huffman - implementation of the Huffman algorithm
-Summary(pl.UTF-8):   Algorithm::Huffman - implementacja algorytmu Huffmana
+Summary(pl.UTF-8):	Algorithm::Huffman - implementacja algorytmu Huffmana
 Name:		perl-Algorithm-Huffman
 Version:	0.09
 Release:	3
