@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Algorithm
 %define		pnam	Huffman
+%include	/usr/lib/rpm/macros.perl
 Summary:	Algorithm::Huffman - implementation of the Huffman algorithm
 Summary(pl.UTF-8):	Algorithm::Huffman - implementacja algorytmu Huffmana
 Name:		perl-Algorithm-Huffman
@@ -15,7 +15,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	dd5c0360357dcb0807e9ac2e49b2e746
+URL:		http://search.cpan.org/dist/Algorithm-Huffman/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Heap
 BuildRequires:	perl-Scalar-List-Utils
@@ -25,13 +27,12 @@ BuildRequires:	perl-Test-ManyParams
 BuildRequires:	perl-Test-Simple
 BuildRequires:	perl-Tree-DAG_Node
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This modules implements the huffman algorithm. The aim is to create
-a good coding scheme for a given list of different characters (or even
+This modules implements the huffman algorithm. The aim is to create a
+good coding scheme for a given list of different characters (or even
 strings) and their occurence numbers.
 
 %description -l pl.UTF-8
